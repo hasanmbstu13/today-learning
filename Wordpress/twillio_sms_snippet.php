@@ -71,7 +71,7 @@ function my_ninja_forms_after_submission( $form_data ){
                 )
             );
             if(count($recipients_number) > 0){
-                // Send to user recipient
+                // Send to recipient
                 foreach ($recipients_number as $key => $recipient ){
 //                $recipient_object = 'reciepient_'.$key;
 //                $recipient_object = new Client($account_sid, $auth_token);
